@@ -5,3 +5,6 @@ This project encodes Sudoku puzzles as SAT problems and solves them using DPLL, 
 ## Usage
 ```bash
 python solve.py --method DPLL --input puzzle.txt
+
+## Compare Methods
+python solve.py --compare --input puzzle.txt
